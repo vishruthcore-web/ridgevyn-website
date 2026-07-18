@@ -1,0 +1,6 @@
+{
+  "name": "RIDGEVYN",
+  "description": "RevenueOS - Premium Revenue Recovery System for Roofing Companies",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
