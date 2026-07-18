@@ -158,7 +158,6 @@ export default function RevenueOS() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-24">
           <div className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-brand-brown-rich/70 mb-4">
-            <span className="w-1.5 h-1.5 rounded-full bg-brand-brown-rich animate-pulse" />
             Core Architecture
           </div>
           <h2 id="revenue-os-heading" className="font-serif text-4xl sm:text-5xl lg:text-6xl font-light text-brand-brown-rich tracking-tight">

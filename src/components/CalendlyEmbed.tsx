@@ -98,7 +98,7 @@ export default function CalendlyEmbed({ navigate }: CalendlyEmbedProps) {
                   <div>
                     <h4 className="font-semibold text-brand-brown-rich text-sm">Revenue Recovery Blueprint</h4>
                     <p className="text-xs text-brand-grey-dark font-light mt-1 leading-relaxed">
-                      I'll walk you through exactly how a Revenue Recovery System would fit into your business, using your current sales process as the example.
+                      We'll walk you through exactly how a Revenue Recovery System would fit into your business, using your current sales process as the example.
                     </p>
                   </div>
                 </div>
@@ -110,7 +110,7 @@ export default function CalendlyEmbed({ navigate }: CalendlyEmbedProps) {
                   <div>
                     <h4 className="font-semibold text-brand-brown-rich text-sm">Advisory Discussion</h4>
                     <p className="text-xs text-brand-grey-dark font-light mt-1 leading-relaxed">
-                      No pressure. No generic sales pitch. If I believe RevenueOS can help, I'll explain why. If not, I'll tell you that too.
+                      No pressure. No generic sales pitch. If we believe RevenueOS can help, we'll explain why. If not, we'll tell you that too.
                     </p>
                   </div>
                 </div>
@@ -128,7 +128,7 @@ export default function CalendlyEmbed({ navigate }: CalendlyEmbedProps) {
                       <span className="text-[10px] bg-brand-beige-subtle px-2 py-0.5 rounded-full text-brand-brown-rich/80 font-mono">3–4 min</span>
                     </div>
                     <p className="text-[11px] text-brand-grey-dark font-light italic leading-relaxed">
-                      &ldquo;This isn't a sales presentation. My goal is simply to understand your sales flow, find leakage points, and see if RevenueOS can help.&rdquo;
+                      &ldquo;This isn't a sales presentation. Our goal is simply to understand your sales flow, find leakage points, and see if RevenueOS can help.&rdquo;
                     </p>
                   </div>
 
@@ -171,7 +171,7 @@ export default function CalendlyEmbed({ navigate }: CalendlyEmbedProps) {
           </div>
 
           {/* Column 2: Embedded Iframe Container (lg:col-span-7) */}
-          <div className="lg:col-span-7 relative bg-brand-cream-light rounded-3xl border border-brand-beige-subtle shadow-xs overflow-hidden min-h-[640px] sm:min-h-[720px] flex flex-col">
+          <div className="lg:col-span-7 relative bg-brand-cream-light rounded-3xl border border-brand-beige-subtle shadow-xs overflow-hidden min-h-[1000px] lg:min-h-[700px] flex flex-col">
             {isLoading && (
               <div className="absolute inset-0 flex flex-col items-center justify-center bg-brand-cream-light z-10 gap-3 text-brand-brown-rich/70">
                 <Loader2 className="w-8 h-8 animate-spin" />
@@ -183,7 +183,8 @@ export default function CalendlyEmbed({ navigate }: CalendlyEmbedProps) {
               src={iframeSrc}
               width="100%"
               height="100%"
-              style={{ minHeight: '640px', flexGrow: 1 }}
+              style={{ minHeight: '100%', height: '100%', flexGrow: 1, overflow: 'hidden' }}
+              scrolling="no"
               frameBorder="0"
               title="Book a 30-minute Discovery Call with Ridgevyn"
               className="w-full relative z-0 border-0"

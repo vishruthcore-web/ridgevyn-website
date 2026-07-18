@@ -30,7 +30,6 @@ export default function Pricing({ scrollToSection }: PricingProps) {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16 sm:mb-20">
           <div className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-brand-brown-rich/70 mb-4">
-            <span className="w-1.5 h-1.5 rounded-full bg-brand-brown-rich animate-pulse" />
             Complete Growth Partnership
           </div>
           <h2 id="pricing-heading" className="font-serif text-4xl sm:text-5xl font-light text-brand-brown-rich tracking-tight">

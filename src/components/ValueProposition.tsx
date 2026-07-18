@@ -13,7 +13,6 @@ export default function ValueProposition() {
           {/* Section Headers (Left/Top) */}
           <div className="md:col-span-7 space-y-6">
             <div className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-brand-brown-rich/70">
-              <span className="w-1.5 h-1.5 rounded-full bg-brand-brown-rich" />
               The Reality of Roofing Growth
             </div>
 
