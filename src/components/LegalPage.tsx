@@ -237,7 +237,6 @@ export default function LegalPage({ type, navigate }: LegalPageProps) {
                     For legal inquiries, data protection questions, or to submit data deletion requests, please contact us at:
                   </p>
                   <div className="bg-brand-bg/40 p-5 rounded-2xl border border-brand-beige-subtle space-y-1 text-xs sm:text-sm font-normal text-brand-brown-rich">
-                    <p className="font-semibold">Ridgevyn Technologies Private Limited</p>
                     <p>Email: <a href="mailto:office@ridgevyn.com" className="underline hover:text-brand-brown-rich/80">office@ridgevyn.com</a></p>
                   </div>
                 </section>
@@ -458,10 +457,7 @@ export default function LegalPage({ type, navigate }: LegalPageProps) {
                     For legal notices, questions, or concerns regarding these Terms, please contact us at:
                   </p>
                   <div className="bg-brand-bg/40 p-5 rounded-2xl border border-brand-beige-subtle space-y-1 text-xs sm:text-sm font-normal text-brand-brown-rich">
-                    <p className="font-semibold">Ridgevyn Private Limited</p>
-                    <p>Attn: Legal Department</p>
-                    <p>Corporate Location: Hyderabad, Telangana, India</p>
-                    <p>Email: <a href="mailto:legal@ridgevyn.com" className="underline hover:text-brand-brown-rich/80">legal@ridgevyn.com</a></p>
+                    <p>Email: <a href="mailto:office@ridgevyn.com" className="underline hover:text-brand-brown-rich/80">office@ridgevyn.com</a></p>
                   </div>
                 </section>
               </>
