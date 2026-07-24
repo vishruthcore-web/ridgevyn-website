@@ -29,7 +29,7 @@ export default function YearOne() {
             {/* Core Ethos Copy */}
             <div className="space-y-6 text-base sm:text-lg text-brand-grey-dark font-light leading-relaxed">
               <p>
-                <strong className="font-medium text-brand-brown-rich">RevenueOS</strong> is built to help roofing companies recover revenue they're already generating—but losing due to missed calls, slow response times, poor follow-up, and inefficient sales processes.
+                <strong className="font-medium text-brand-brown-rich">Ridgevyn</strong> is built to help roofing companies recover revenue they're already generating—but losing due to missed calls, slow response times, poor follow-up, and inefficient sales processes.
               </p>
               
               <p>

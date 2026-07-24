@@ -47,11 +47,11 @@ export default function Footer({ navigate, scrollToSection, currentPath }: Foote
             <ul className="space-y-2.5 text-sm font-light text-brand-bg/85">
               <li>
                 <button
-                  id="footer-link-revenueos"
+                  id="footer-link-ridgevyn"
                   onClick={() => handleNavClick('revenue-os')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
-                  RevenueOS
+                  Ridgevyn
                 </button>
               </li>
             </ul>

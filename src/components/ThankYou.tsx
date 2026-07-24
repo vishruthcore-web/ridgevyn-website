@@ -34,7 +34,7 @@ export default function ThankYou({ navigate }: ThankYouProps) {
         {/* Text Body */}
         <div className="space-y-4 text-base sm:text-lg text-brand-grey-dark font-light leading-relaxed max-w-lg mx-auto mb-10">
           <p>
-            Thanks for scheduling your RevenueOS demo.
+            Thanks for scheduling your Ridgevyn demo.
           </p>
           <p>
             You'll receive a confirmation email from Calendly with all the meeting details.

@@ -171,7 +171,7 @@ export default function RevenueOS() {
             One System. Eight Revenue Recovery Engines.
           </h2>
           <p className="text-base text-brand-grey-dark font-light mt-4 leading-relaxed max-w-2xl mx-auto">
-            RevenueOS integrates eight fully structured systems that target leakage points across your customer acquisition funnel, working together seamlessly under one platform.
+            Ridgevyn integrates eight fully structured systems that target leakage points across your customer acquisition funnel, working together seamlessly under one platform.
           </p>
         </div>
 

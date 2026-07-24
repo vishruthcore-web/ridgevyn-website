@@ -21,8 +21,8 @@ export default function Hero({ scrollToSection }: HeroProps) {
           className="w-full h-full object-cover object-center scale-105 select-none"
           referrerPolicy="no-referrer"
         />
-        {/* Elegant overlay to maintain high text readability and warm dark tone */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/65 via-brand-brown-rich/80 to-brand-brown-rich/98 backdrop-brightness-[0.75]" />
+        {/* Elegant overlay to maintain high text readability while letting the architectural background shine through */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-[#231710]/65 to-[#1A100A]/90 backdrop-brightness-[0.88]" />
       </div>
 
       {/* Content */}
@@ -57,7 +57,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
           transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}
           className="font-sans text-sm sm:text-base text-[#FAF8F5]/95 leading-relaxed max-w-xl mb-10 tracking-wide font-light"
         >
-          RevenueOS helps roofing companies recover missed revenue caused by missed calls, slow response times, poor follow-up, and disconnected sales processes—without generating new leads.
+          Ridgevyn helps roofing companies recover missed revenue caused by missed calls, slow response times, poor follow-up, and disconnected sales processes—without generating new leads.
         </motion.p>
 
         {/* CTA Buttons */}

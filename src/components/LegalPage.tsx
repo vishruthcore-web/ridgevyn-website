@@ -58,17 +58,17 @@ export default function LegalPage({ type, navigate }: LegalPageProps) {
                 <section id="privacy-section-introduction" className="space-y-3">
                   <h3 className="font-serif text-xl font-normal text-brand-brown-rich">1. Introduction & Scope</h3>
                   <p>
-                    This Privacy Policy (the "Policy") outlines how <strong>Ridgevyn Private Limited</strong> ("Company", "we", "us", or "our"), an Indian private limited company, collects, uses, stores, and processes personal and corporate information of visitors, prospects, and users (collectively, "you" or "your") who access our website or engage with the <strong>RevenueOS</strong> marketing and business development systems.
+                    This Privacy Policy (the "Policy") outlines how <strong>Ridgevyn Private Limited</strong> ("Company", "we", "us", or "our"), an Indian private limited company, collects, uses, stores, and processes personal and corporate information of visitors, prospects, and users (collectively, "you" or "your") who access our website or engage with the <strong>Ridgevyn</strong> marketing and business development systems.
                   </p>
                   <p>
-                    We operate and promote RevenueOS, a comprehensive Revenue Recovery System designed specifically for commercial and residential roofing contractors located in the United States. This Policy describes our practices regarding information collected when you browse our website, request demonstrations, submit contact forms, book discovery or briefing calls using our integrated Calendly widget, or contact us directly.
+                    We operate and promote Ridgevyn, a comprehensive Revenue Recovery System designed specifically for commercial and residential roofing contractors located in the United States. This Policy describes our practices regarding information collected when you browse our website, request demonstrations, submit contact forms, book discovery or briefing calls using our integrated Calendly widget, or contact us directly.
                   </p>
                 </section>
 
                 <section id="privacy-section-collection" className="space-y-3">
                   <h3 className="font-serif text-xl font-normal text-brand-brown-rich">2. Information We Collect</h3>
                   <p>
-                    We collect only the information necessary to provide and optimize our business-to-business (B2B) services and promote RevenueOS. We collect information in the following ways:
+                    We collect only the information necessary to provide and optimize our business-to-business (B2B) services and promote Ridgevyn. We collect information in the following ways:
                   </p>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>
@@ -95,7 +95,7 @@ export default function LegalPage({ type, navigate }: LegalPageProps) {
                     <li>Facilitating scheduling, coordinating discovery calls, and conducting corporate briefings.</li>
                     <li>Evaluating your roofing business pipeline to perform a custom <strong>Revenue Leakage Audit</strong> when requested.</li>
                     <li>Providing operational insights, technical demonstrations, and responding to business development inquiries.</li>
-                    <li>Sending professional B2B communications, administrative updates, and relevant marketing materials regarding the RevenueOS suite.</li>
+                    <li>Sending professional B2B communications, administrative updates, and relevant marketing materials regarding the Ridgevyn suite.</li>
                     <li>Securing, optimizing, and maintaining our website, systems, and integrated partner widgets.</li>
                     <li>Fulfilling legal, statutory, and regulatory compliance obligations.</li>
                   </ul>
@@ -203,7 +203,7 @@ export default function LegalPage({ type, navigate }: LegalPageProps) {
                 <section id="privacy-section-communications" className="space-y-3">
                   <h3 className="font-serif text-xl font-normal text-brand-brown-rich">11. Marketing Communications</h3>
                   <p>
-                    We may periodically send you professional B2B updates, newsletters, or informational materials regarding RevenueOS. You have the right to opt out of these communications at any time. You can unsubscribe by clicking the "unsubscribe" link at the bottom of any marketing email, or by sending a direct opt-out request to our compliance team. Once processed, we will cease sending promotional communications, though we may still contact you regarding outstanding calendar bookings or direct business inquiries.
+                    We may periodically send you professional B2B updates, newsletters, or informational materials regarding Ridgevyn. You have the right to opt out of these communications at any time. You can unsubscribe by clicking the "unsubscribe" link at the bottom of any marketing email, or by sending a direct opt-out request to our compliance team. Once processed, we will cease sending promotional communications, though we may still contact you regarding outstanding calendar bookings or direct business inquiries.
                   </p>
                 </section>
 
@@ -259,7 +259,7 @@ export default function LegalPage({ type, navigate }: LegalPageProps) {
                 <section id="terms-section-services" className="space-y-3">
                   <h3 className="font-serif text-xl font-normal text-brand-brown-rich">2. Description of Services</h3>
                   <p>
-                    The Website is a business-to-business (B2B) informational platform designed to promote and describe the <strong>RevenueOS</strong> product suite and commercial consulting solutions operated by Ridgevyn Private Limited. RevenueOS represents a comprehensive Revenue Recovery System tailored specifically for roofing contractors located in the United States.
+                    The Website is a business-to-business (B2B) informational platform designed to promote and describe the <strong>Ridgevyn</strong> product suite and commercial consulting solutions operated by Ridgevyn Private Limited. Ridgevyn represents a comprehensive Revenue Recovery System tailored specifically for roofing contractors located in the United States.
                   </p>
                   <p>
                     The professional services, workflows, and automated systems advertised on this Website include:
@@ -286,7 +286,7 @@ export default function LegalPage({ type, navigate }: LegalPageProps) {
                   </p>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>
-                      <strong>Service Nature:</strong> RevenueOS provides B2B operational consulting, software automation implementation, AI-assisted communication systems, administrative workflow optimization, and digital advisory services. We do not act as a licensed marketing lead broker, nor do we sell lead lists.
+                      <strong>Service Nature:</strong> Ridgevyn provides B2B operational consulting, software automation implementation, AI-assisted communication systems, administrative workflow optimization, and digital advisory services. We do not act as a licensed marketing lead broker, nor do we sell lead lists.
                     </li>
                     <li>
                       <strong>No Guarantee of Business Results:</strong> Ridgevyn Private Limited makes NO guarantee, warranty, or representation, express or implied, regarding increased revenue, specific volumes of booked inspections, customer sales, conversion rates, or general business growth.
@@ -323,7 +323,7 @@ export default function LegalPage({ type, navigate }: LegalPageProps) {
                     The Website and its entire contents, features, and functionality (including but not limited to all information, software code, text, displays, graphics, logos, brand names, visual icons, custom button designs, layout arrangements, and selection) are the exclusive proprietary properties of Ridgevyn Private Limited and are protected by Indian and international copyright, trademark, trade secret, and other intellectual property laws.
                   </p>
                   <p>
-                    <strong>Branding:</strong> The terms "RIDGEVYN", "RevenueOS", and all associated logos, product names, and service titles are proprietary brand assets. You are strictly prohibited from using these brands or logos without our prior express written authorization.
+                    <strong>Branding:</strong> The terms "RIDGEVYN" and all associated logos, product names, and service titles are proprietary brand assets. You are strictly prohibited from using these brands or logos without our prior express written authorization.
                   </p>
                   <p>
                     <strong>Limited License:</strong> We grant you a limited, non-exclusive, non-transferable, revocable license to access and view the Website solely for the purpose of evaluating our B2B consulting and software services for your internal roofing business.
@@ -343,7 +343,7 @@ export default function LegalPage({ type, navigate }: LegalPageProps) {
                     <li>Engaging in unauthorized automated scraping, systematic harvesting, data mining, or deep-linking of website content or source code.</li>
                     <li>Introducing viruses, trojans, worms, logic bombs, or other malicious, technologically harmful code to our systems.</li>
                     <li>Attempting to gain unauthorized access to, interfere with, damage, or disrupt any parts of the Website, the hosting server, or any connected databases.</li>
-                    <li>Decompiling, reverse engineering, or attempting to extract the underlying proprietary source code or algorithms of the Website or RevenueOS system structures.</li>
+                    <li>Decompiling, reverse engineering, or attempting to extract the underlying proprietary source code or algorithms of the Website or Ridgevyn system structures.</li>
                   </ul>
                 </section>
 
@@ -362,7 +362,7 @@ export default function LegalPage({ type, navigate }: LegalPageProps) {
                 <section id="terms-section-pricing" className="space-y-3">
                   <h3 className="font-serif text-xl font-normal text-brand-brown-rich">9. Commercial Terms & Engagement</h3>
                   <p>
-                    No binding commercial quotes are issued directly through the public Website. All service fees, payment terms, and scope descriptions for our commercial B2B consulting or RevenueOS implementations are established exclusively in a separate Master Services Agreement (MSA) or statement of work signed by authorized representatives and the client.
+                    No binding commercial quotes are issued directly through the public Website. All service fees, payment terms, and scope descriptions for our commercial B2B consulting or Ridgevyn implementations are established exclusively in a separate Master Services Agreement (MSA) or statement of work signed by authorized representatives and the client.
                   </p>
                 </section>
 

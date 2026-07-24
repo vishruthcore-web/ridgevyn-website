@@ -110,7 +110,7 @@ export default function CalendlyEmbed({ navigate }: CalendlyEmbedProps) {
                   <div>
                     <h4 className="font-semibold text-brand-brown-rich text-sm">Advisory Discussion</h4>
                     <p className="text-xs text-brand-grey-dark font-light mt-1 leading-relaxed">
-                      No pressure. No generic sales pitch. If we believe RevenueOS can help, we'll explain why. If not, we'll tell you that too.
+                      No pressure. No generic sales pitch. If we believe Ridgevyn can help, we'll explain why. If not, we'll tell you that too.
                     </p>
                   </div>
                 </div>
@@ -128,7 +128,7 @@ export default function CalendlyEmbed({ navigate }: CalendlyEmbedProps) {
                       <span className="text-[10px] bg-brand-beige-subtle px-2 py-0.5 rounded-full text-brand-brown-rich/80 font-mono">3–4 min</span>
                     </div>
                     <p className="text-[11px] text-brand-grey-dark font-light italic leading-relaxed">
-                      &ldquo;This isn't a sales presentation. Our goal is simply to understand your sales flow, find leakage points, and see if RevenueOS can help.&rdquo;
+                      &ldquo;This isn't a sales presentation. Our goal is simply to understand your sales flow, find leakage points, and see if Ridgevyn can help.&rdquo;
                     </p>
                   </div>
 
@@ -154,7 +154,7 @@ export default function CalendlyEmbed({ navigate }: CalendlyEmbedProps) {
 
                   <div className="bg-brand-bg/50 rounded-2xl p-4 border border-brand-beige-subtle/40 space-y-2">
                     <div className="flex items-center justify-between">
-                      <span className="text-xs font-medium text-brand-brown-rich">4. Explain RevenueOS</span>
+                      <span className="text-xs font-medium text-brand-brown-rich">4. Explain Ridgevyn</span>
                       <span className="text-[10px] bg-brand-beige-subtle px-2 py-0.5 rounded-full text-brand-brown-rich/80 font-mono">5–8 min</span>
                     </div>
                     <p className="text-[11px] text-brand-grey-dark font-light leading-relaxed">

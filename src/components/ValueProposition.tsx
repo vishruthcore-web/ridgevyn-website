@@ -9,7 +9,7 @@ import {
   Calendar,
   FileText,
   Database,
-  ArrowRight
+  Check
 } from 'lucide-react';
 
 export default function ValueProposition() {
@@ -17,31 +17,31 @@ export default function ValueProposition() {
     {
       stage: 'Inbound Calls',
       normal: 'Calls go to voicemail during busy hours. Leads hang up and call competitors.',
-      revenueOS: '24/7 AI Receptionist answers instantly, qualifies leads, and logs transcripts.',
+      ridgevyn: '24/7 AI Receptionist answers instantly, qualifies leads, and logs transcripts.',
       icon: PhoneCall,
     },
     {
       stage: 'Speed-to-Lead',
       normal: 'Hours or days delay in responding to web leads. Conversion rate plummets.',
-      revenueOS: 'Instant automated SMS & call engagement within 30 seconds, 24/7.',
+      ridgevyn: 'Instant automated SMS & call engagement within 30 seconds, 24/7.',
       icon: Clock,
     },
     {
       stage: 'Inspection Booking',
       normal: 'Manual phone tag and email back-and-forth causing scheduling drop-off.',
-      revenueOS: 'Automated self-booking link synced directly to estimator calendars.',
+      ridgevyn: 'Automated self-booking link synced directly to estimator calendars.',
       icon: Calendar,
     },
     {
       stage: 'Estimate Follow-Up',
       normal: 'Proposals sent and neglected after 1–2 calls. Unclosed quotes abandoned.',
-      revenueOS: 'Persistent multi-touch SMS & email follow-up sequences until closed.',
+      ridgevyn: 'Persistent multi-touch SMS & email follow-up sequences until closed.',
       icon: FileText,
     },
     {
       stage: 'Past Lead Database',
       normal: 'Old quotes and dormant lead lists sit forgotten in spreadsheets.',
-      revenueOS: 'Automated database reactivation campaigns convert past leads into new jobs.',
+      ridgevyn: 'Automated database reactivation campaigns convert past leads into new jobs.',
       icon: Database,
     },
   ];
@@ -68,7 +68,7 @@ export default function ValueProposition() {
             </h2>
 
             <p id="value-prop-subheading" className="text-base sm:text-lg text-brand-grey-dark font-light leading-relaxed">
-              Most roofing companies don't actually have a lead problem—they have a <strong className="font-semibold text-brand-brown-rich">revenue leakage problem</strong>. RevenueOS installs a complete Revenue Recovery System that captures, responds to, and converts your existing inbound opportunities into booked inspections and signed jobs.
+              Most roofing companies don't actually have a lead problem—they have a <strong className="font-semibold text-brand-brown-rich">revenue leakage problem</strong>. Ridgevyn installs a complete Revenue Recovery System that captures, responds to, and converts your existing inbound opportunities into booked inspections and signed jobs.
             </p>
           </div>
 
@@ -100,8 +100,8 @@ export default function ValueProposition() {
               </div>
             </div>
 
-            <div className="p-4 bg-brand-brown-rich text-[#FAF8F5] rounded-2xl text-center">
-              <p className="font-serif text-sm sm:text-base font-light italic leading-snug">
+            <div className="p-4.5 bg-brand-brown-light/90 rounded-2xl border border-brand-beige-subtle text-center shadow-2xs">
+              <p className="font-serif text-sm sm:text-base font-medium italic leading-snug text-brand-brown-rich">
                 "We don't generate leads. We recover the revenue your existing marketing already creates."
               </p>
             </div>
@@ -117,11 +117,11 @@ export default function ValueProposition() {
             </div>
 
             <h3 className="font-serif text-2xl sm:text-3xl font-light text-brand-brown-rich leading-tight tracking-tight">
-              The Normal Process vs. <span className="italic font-normal">RevenueOS</span>
+              The Normal Process vs. <span className="italic font-normal">Ridgevyn</span>
             </h3>
 
             <p className="text-xs sm:text-sm text-brand-grey-dark font-light mt-2 leading-relaxed">
-              How traditional roofing operations compare to the automated RevenueOS framework across every key sales stage.
+              How traditional roofing operations compare to the automated Ridgevyn framework across every key sales stage.
             </p>
           </div>
 
@@ -131,7 +131,7 @@ export default function ValueProposition() {
             <div className="hidden md:grid md:grid-cols-12 bg-brand-bg/80 border-b border-brand-beige-subtle px-6 py-3.5 text-xs font-semibold uppercase tracking-wider text-brand-brown-rich">
               <div className="col-span-3">Sales Stage</div>
               <div className="col-span-4 text-brand-brown-rich/70">The Normal Process</div>
-              <div className="col-span-5 text-brand-brown-rich font-bold">The RevenueOS System</div>
+              <div className="col-span-5 text-brand-brown-rich font-bold">The Ridgevyn System</div>
             </div>
 
             {/* Rows */}
@@ -163,14 +163,14 @@ export default function ValueProposition() {
                       </p>
                     </div>
 
-                    {/* RevenueOS System */}
-                    <div className="md:col-span-5 bg-brand-brown-rich text-[#FAF8F5] p-3.5 sm:p-4 rounded-2xl shadow-xs">
-                      <span className="text-[11px] font-semibold uppercase tracking-wider text-brand-beige-subtle/80 block md:hidden mb-1">
-                        RevenueOS System
+                    {/* Ridgevyn System */}
+                    <div className="md:col-span-5 bg-brand-brown-light/70 p-3.5 sm:p-4 rounded-2xl border border-brand-beige-subtle/90 shadow-2xs">
+                      <span className="text-[11px] font-semibold uppercase tracking-wider text-brand-brown-rich/70 block md:hidden mb-1">
+                        Ridgevyn System
                       </span>
-                      <p className="text-xs sm:text-sm text-[#FAF8F5] font-normal leading-relaxed flex items-start gap-2">
-                        <ArrowRight className="w-4 h-4 text-brand-beige-subtle shrink-0 mt-0.5" />
-                        <span>{row.revenueOS}</span>
+                      <p className="text-xs sm:text-sm text-brand-brown-rich font-medium leading-relaxed flex items-start gap-2">
+                        <Check className="w-4 h-4 text-emerald-800 shrink-0 mt-0.5" />
+                        <span>{row.ridgevyn}</span>
                       </p>
                     </div>
                   </div>

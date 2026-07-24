@@ -84,13 +84,13 @@ export default function Navbar({ currentPath, navigate, scrollToSection }: Navba
             Home
           </a>
           <button
-            id="nav-link-revenueos"
+            id="nav-link-ridgevyn"
             onClick={() => handleNavClick('revenue-os')}
             className={`text-sm font-medium transition-colors duration-300 cursor-pointer ${
               forceDarkText ? 'text-brand-grey-dark hover:text-brand-brown-rich' : 'text-[#FAF8F5]/80 hover:text-white'
             }`}
           >
-            RevenueOS
+            Ridgevyn
           </button>
           <button
             id="nav-link-bookdemo"
@@ -142,11 +142,11 @@ export default function Navbar({ currentPath, navigate, scrollToSection }: Navba
                 Home
               </a>
               <button
-                id="mobile-nav-link-revenueos"
+                id="mobile-nav-link-ridgevyn"
                 onClick={() => handleNavClick('revenue-os')}
                 className="text-left text-base font-medium text-brand-grey-dark hover:text-brand-brown-rich"
               >
-                RevenueOS
+                Ridgevyn
               </button>
               <button
                 id="mobile-nav-link-bookdemo"
