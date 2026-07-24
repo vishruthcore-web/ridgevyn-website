@@ -1,4 +1,4 @@
-export type ActiveTab = 'home' | 'revenue-os' | 'pricing' | 'book-demo' | 'thank-you' | 'privacy' | 'terms';
+export type ActiveTab = 'home' | 'revenue-os' | 'book-demo' | 'thank-you' | 'privacy' | 'terms';
 
 export interface LeakageItem {
   id: string;
@@ -11,5 +11,5 @@ export interface EngineService {
   title: string;
   purpose: string;
   includes: string[];
-  outcome?: string;
+  outcome: string;
 }

@@ -360,12 +360,9 @@ export default function LegalPage({ type, navigate }: LegalPageProps) {
                 </section>
 
                 <section id="terms-section-pricing" className="space-y-3">
-                  <h3 className="font-serif text-xl font-normal text-brand-brown-rich">9. Pricing Disclaimer</h3>
+                  <h3 className="font-serif text-xl font-normal text-brand-brown-rich">9. Commercial Terms & Engagement</h3>
                   <p>
-                    Any service pricing, fee estimates, or packaging descriptions referenced on this Website are for general informational purposes only and are subject to change without notice. No binding pricing quotes are issued directly through the public Website.
-                  </p>
-                  <p>
-                    Final binding pricing and payment terms for our commercial B2B consulting or RevenueOS implementations are set forth exclusively in a separate Master Services Agreement (MSA) or statement of work signed by the authorized officers of Ridgevyn Private Limited and the client.
+                    No binding commercial quotes are issued directly through the public Website. All service fees, payment terms, and scope descriptions for our commercial B2B consulting or RevenueOS implementations are established exclusively in a separate Master Services Agreement (MSA) or statement of work signed by authorized representatives and the client.
                   </p>
                 </section>
 

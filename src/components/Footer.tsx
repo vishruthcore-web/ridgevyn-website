@@ -54,15 +54,6 @@ export default function Footer({ navigate, scrollToSection, currentPath }: Foote
                   RevenueOS
                 </button>
               </li>
-              <li>
-                <button
-                  id="footer-link-pricing"
-                  onClick={() => handleNavClick('pricing')}
-                  className="hover:text-white transition-colors cursor-pointer"
-                >
-                  Pricing
-                </button>
-              </li>
             </ul>
           </div>
 

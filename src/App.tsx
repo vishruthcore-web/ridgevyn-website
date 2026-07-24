@@ -9,7 +9,6 @@ import Hero from './components/Hero';
 import ValueProposition from './components/ValueProposition';
 import RevenueLeakage from './components/RevenueLeakage';
 import RevenueOS from './components/RevenueOS';
-import Pricing from './components/Pricing';
 import YearOne from './components/YearOne';
 import CalendlyEmbed from './components/CalendlyEmbed';
 import ThankYou from './components/ThankYou';
@@ -57,7 +56,6 @@ export default function App() {
             <ValueProposition />
             <RevenueLeakage />
             <RevenueOS />
-            <Pricing scrollToSection={scrollToSection} />
             <YearOne />
             <CalendlyEmbed navigate={navigate} />
           </>

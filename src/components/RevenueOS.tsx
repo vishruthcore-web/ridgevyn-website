@@ -28,7 +28,7 @@ const engines: EngineService[] = [
       'Revenue loss assessment',
       'Revenue recovery action plan'
     ],
-    outcome: 'Know exactly where revenue is being lost.'
+    outcome: 'Know exactly where revenue is being lost across your entire sales funnel.'
   },
   {
     id: 2,
@@ -42,7 +42,8 @@ const engines: EngineService[] = [
       'Email recovery',
       'Callback automation',
       'Reporting'
-    ]
+    ],
+    outcome: 'Instantly re-engage missed calls and recover lost leads before they call a competitor.'
   },
   {
     id: 3,
@@ -55,7 +56,8 @@ const engines: EngineService[] = [
       'Priority detection',
       'Escalations',
       'Reporting'
-    ]
+    ],
+    outcome: 'Engage every incoming lead within seconds to dramatically increase appointment booking rates.'
   },
   {
     id: 4,
@@ -72,7 +74,8 @@ const engines: EngineService[] = [
       'Call recordings',
       'Transcripts',
       'After-hours coverage'
-    ]
+    ],
+    outcome: 'Zero missed enquiries 24/7 with instant lead qualification and call capture.'
   },
   {
     id: 5,
@@ -87,7 +90,8 @@ const engines: EngineService[] = [
       'Rescheduling',
       'Recovery campaigns',
       'Reporting'
-    ]
+    ],
+    outcome: "Automatically fill your estimators' calendars with confirmed on-site inspections."
   },
   {
     id: 6,
@@ -100,7 +104,8 @@ const engines: EngineService[] = [
       'Lost estimate recovery',
       'Long-term nurture',
       'Reporting'
-    ]
+    ],
+    outcome: 'Consistently follow up on and close open roofing quotes that would otherwise stall.'
   },
   {
     id: 7,
@@ -112,7 +117,8 @@ const engines: EngineService[] = [
       'Win-back campaigns',
       'Automation',
       'Reporting'
-    ]
+    ],
+    outcome: 'Unlock high-margin booked jobs from past quotes and dormant contacts without new ad spend.'
   },
   {
     id: 8,
@@ -127,7 +133,8 @@ const engines: EngineService[] = [
       'Forecasting',
       'Historical benchmarking',
       'Trend analysis'
-    ]
+    ],
+    outcome: 'Sustain high conversion rates, predictable revenue growth, and total pipeline visibility month after month.'
   }
 ];
 

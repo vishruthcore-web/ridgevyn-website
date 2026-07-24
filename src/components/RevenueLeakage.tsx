@@ -8,6 +8,7 @@ import {
   FileX,
   Database,
   Link2Off,
+  BarChart3,
   TrendingDown
 } from 'lucide-react';
 
@@ -52,6 +53,11 @@ const leakageCards: LeakageCard[] = [
     title: 'Disconnected Sales Processes',
     description: 'Inconsistent lead hand-offs between admin staff, estimators, and project managers.',
     icon: Link2Off,
+  },
+  {
+    title: 'Untracked Pipeline Drop-Off',
+    description: 'Lack of real-time visibility into where prospects stall or abandon the sales journey before closing.',
+    icon: BarChart3,
   }
 ];
 
@@ -76,27 +82,27 @@ export default function RevenueLeakage() {
           </p>
         </div>
 
-        {/* Premium Grid Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Premium Grid Cards (8 items = 2 rows of 4 on desktop, 4 rows of 2 on tablet) */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {leakageCards.map((card, idx) => {
             const Icon = card.icon;
             return (
               <div
                 id={`leakage-card-${idx}`}
                 key={idx}
-                className="group relative bg-brand-bg hover:bg-brand-brown-rich hover:text-[#F7F3EC] p-8 rounded-3xl border border-brand-beige-subtle shadow-xs transition-all duration-300 flex flex-col justify-between"
+                className="group relative bg-brand-bg hover:bg-brand-brown-rich hover:text-[#F7F3EC] p-7 rounded-3xl border border-brand-beige-subtle shadow-xs transition-all duration-300 flex flex-col justify-between"
               >
                 <div>
                   {/* Icon with circular warm beige background */}
                   <div className="p-3 bg-brand-cream-light group-hover:bg-white/10 rounded-2xl w-fit border border-brand-beige-subtle group-hover:border-white/10 text-brand-brown-rich group-hover:text-brand-bg transition-colors mb-6">
-                    <Icon className="w-6 h-6" />
+                    <Icon className="w-5 h-5" />
                   </div>
                   
-                  <h3 className="font-serif text-2xl font-normal tracking-tight mb-3">
+                  <h3 className="font-serif text-xl font-normal tracking-tight mb-2.5">
                     {card.title}
                   </h3>
                   
-                  <p className="text-sm text-brand-grey-dark group-hover:text-[#F7F3EC]/80 font-light leading-relaxed">
+                  <p className="text-xs sm:text-sm text-brand-grey-dark group-hover:text-[#F7F3EC]/80 font-light leading-relaxed">
                     {card.description}
                   </p>
                 </div>
@@ -111,3 +117,4 @@ export default function RevenueLeakage() {
     </section>
   );
 }
+

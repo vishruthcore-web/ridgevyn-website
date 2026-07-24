@@ -93,15 +93,6 @@ export default function Navbar({ currentPath, navigate, scrollToSection }: Navba
             RevenueOS
           </button>
           <button
-            id="nav-link-pricing"
-            onClick={() => handleNavClick('pricing')}
-            className={`text-sm font-medium transition-colors duration-300 cursor-pointer ${
-              forceDarkText ? 'text-brand-grey-dark hover:text-brand-brown-rich' : 'text-[#FAF8F5]/80 hover:text-white'
-            }`}
-          >
-            Pricing
-          </button>
-          <button
             id="nav-link-bookdemo"
             onClick={() => handleNavClick('calendly-section')}
             className={`flex items-center gap-1 text-sm font-medium px-5 py-2.5 rounded-full hover:scale-[1.02] active:scale-[0.98] transition-all shadow-xs cursor-pointer ${
@@ -156,13 +147,6 @@ export default function Navbar({ currentPath, navigate, scrollToSection }: Navba
                 className="text-left text-base font-medium text-brand-grey-dark hover:text-brand-brown-rich"
               >
                 RevenueOS
-              </button>
-              <button
-                id="mobile-nav-link-pricing"
-                onClick={() => handleNavClick('pricing')}
-                className="text-left text-base font-medium text-brand-grey-dark hover:text-brand-brown-rich"
-              >
-                Pricing
               </button>
               <button
                 id="mobile-nav-link-bookdemo"
