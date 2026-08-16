@@ -20,7 +20,7 @@ export default function Navbar({ currentPath, navigate, scrollToSection }: Navba
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const isHome = currentPath === '/' || currentPath === '/index.html' || currentPath === '' || currentPath.endsWith('/');
+ const isHome = currentPath === '/' || currentPath === '/index.html' || currentPath === '';
   const forceDarkText = !isHome || isScrolled;
 
   const handleNavClick = (sectionId: string) => {
