@@ -19,9 +19,10 @@ export default function Navbar({ currentPath, navigate, scrollToSection }: Navba
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
- const isHome = currentPath === '/' || currentPath === '/index.html' || currentPath === '';
-  const forceDarkText = !isHome || isScrolled;
+  
+const isHome = currentPath === '/' || currentPath === '/index.html' || currentPath === '';
+const isLeadFollowUp = currentPath === '/roofing-lead-follow-up';
+const forceDarkText = !isLeadFollowUp && (!isHome || isScrolled);
 
   const handleNavClick = (sectionId: string) => {
     setIsOpen(false);
