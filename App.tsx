@@ -53,7 +53,6 @@ const [currentPath, setCurrentPath] = useState(
   const renderContent = () => {
     switch (currentPath) {
         case '/roofing-lead-follow-up':
-case '/roofing-lead-follow-up/':
   return <RoofingLeadFollowUp navigate={navigate} />;
       case '/thank-you':
         return <ThankYou navigate={navigate} />;
