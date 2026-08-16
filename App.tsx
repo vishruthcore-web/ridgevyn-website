@@ -18,20 +18,27 @@ import LegalPage from './components/LegalPage';
 import Footer from './components/Footer';
 
 export default function App() {
-  const [currentPath, setCurrentPath] = useState(window.location.pathname);
+const normalizePath = (path: string) => {
+  const normalized = path.replace(/\/+$/, '');
+  return normalized || '/';
+};
 
+const [currentPath, setCurrentPath] = useState(
+  normalizePath(window.location.pathname)
+);
   // Sync state with browser back/forward buttons
   useEffect(() => {
-    const handlePopState = () => {
-      setCurrentPath(window.location.pathname);
-    };
+   const handlePopState = () => {
+  setCurrentPath(normalizePath(window.location.pathname));
+};
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
   const navigate = (path: string) => {
-    window.history.pushState(null, '', path);
-    setCurrentPath(path);
+  const normalizedPath = normalizePath(path);
+  window.history.pushState(null, '', normalizedPath);
+  setCurrentPath(normalizedPath);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
