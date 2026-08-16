@@ -51,6 +51,9 @@ const [currentPath, setCurrentPath] = useState(
 
   // Render correct view based on path
   const renderContent = () => {
+    if (window.location.pathname.includes('roofing-lead-follow-up')) {
+  return <RoofingLeadFollowUp navigate={navigate} />;
+}
     switch (currentPath) {
         case '/roofing-lead-follow-up':
   return <RoofingLeadFollowUp navigate={navigate} />;
