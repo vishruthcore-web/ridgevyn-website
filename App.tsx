@@ -45,6 +45,8 @@ export default function App() {
   // Render correct view based on path
   const renderContent = () => {
     switch (currentPath) {
+        case '/roofing-lead-follow-up':
+  return <RoofingLeadFollowUp navigate={navigate} />;
       case '/thank-you':
         return <ThankYou navigate={navigate} />;
       case '/privacy':
