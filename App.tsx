@@ -7,6 +7,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ValueProposition from './components/ValueProposition';
+import RoofingLeadFollowUp from './components/RoofingLeadFollowUp';
 import RevenueLeakage from './components/RevenueLeakage';
 import RevenueOS from './components/RevenueOS';
 import Pricing from './components/Pricing';
